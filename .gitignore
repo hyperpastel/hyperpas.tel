@@ -1,3 +1,5 @@
 public/
 
+# nix things
 flake.lock
+result
