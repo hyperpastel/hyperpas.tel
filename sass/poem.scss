@@ -1,0 +1,16 @@
+// Variables
+$font-family: "Sans Serif", sans-serif;
+$box-background: rgba(15, 0, 0, 0.6);
+$text-color: #efe;
+$accent-color: #871029;
+$highlight-color: #f13140;
+
+// Definitions
+.box.content {
+    width: 100%;
+    background-color: $box-background;
+    color: $text-color;
+    border: 1px solid $accent-color;
+    padding: 25px;
+    white-space: pre-line;
+}

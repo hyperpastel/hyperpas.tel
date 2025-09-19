@@ -39,7 +39,7 @@ title = "hyperpas.tel - an abstract space"
         </p>
         <p>
             I also love feeling. Emotions are wonderful, especially love. And by far more than anything else in this entire universe, 
-            I love my wonderful girlfriend.
+            I love my <a href="/poem">wonderful girlfriend</a>.
         </p>
     </div>
 </div>

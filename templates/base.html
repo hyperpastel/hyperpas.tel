@@ -8,14 +8,14 @@
     <meta property="og:description" content="hoe kan een bloem groeien als ze geen regen kent?">
     <meta property="og:image" content="https://i.pinimg.com/736x/cc/84/ac/cc84ac91e0b5a3ceb0c3076bd4e388f9.jpg">
     <link rel="stylesheet" href="/base.css">
-    <title> {{ section.title }} </title>
+    <title> {%- block title %} {{ config.title }} {% endblock title %} </title>
     {%- block head_extension %}
     {% endblock head_extension %}
 </head>
 <body>
     <div class="main-box">
         <div class="box title">
-            <p>{%- block title %} {{ section.title }} {% endblock title %}</p>
+            <p> {%- block smalltitle %} {% endblock smalltitle %} </p>
         </div>
         {% block content %} {% endblock content %}
         <div class="box footer">

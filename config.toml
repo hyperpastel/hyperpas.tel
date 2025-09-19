@@ -7,7 +7,7 @@ build_search_index = false
 highlight_code = false
 
 [extra]
-
+title = "hyperpas.tel - an abstract space"
 88x31 = [
     { title = "firefox", img = "firefox.png", url = "https://mozilla.com/firefox/"},
     { title = "firefox2", img = "firefox2.gif", url = "https://mozilla.com/firefox/"},
