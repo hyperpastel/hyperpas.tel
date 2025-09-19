@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hyperpas.tel">
+    <meta property="og:title" content="an abstract space">
+    <meta property="og:description" content="hoe kan een bloem groeien als ze geen regen kent?">
+    <meta property="og:image" content="https://i.pinimg.com/736x/cc/84/ac/cc84ac91e0b5a3ceb0c3076bd4e388f9.jpg">
+    <link rel="stylesheet" href="/base.css">
+    <title> {{ section.title }} </title>
+    {%- block head_extension %}
+    {% endblock head_extension %}
+</head>
+<body>
+    <div class="main-box">
+        <div class="box title">
+            <p>{%- block title %} {{ section.title }} {% endblock title %}</p>
+        </div>
+        {% block content %} {% endblock content %}
+        <div class="box footer">
+            <nav id="eeti" aria-label="88x31 Buttons">
+                {%- for button in config.extra.88x31 %}
+                <a href="{{button.url}}" class="eeti-button">
+                    <img alt="{{ button.title }}" title="{{ button.title }}" src="{{config.base_url}}/8831/{{ button.img }}" width="88" height="31"/>
+                </a>
+                {%- endfor %}
+                <iframe src="//incr.easrng.net/badge?key=hyperpastel" 
+                        style="background: url(//incr.easrng.net/bg.gif);" 
+                        title="increment badge" 
+                        width="88" height="31" frameborder="0"></iframe>
+            </nav>
+            <nav id="web-rings" aria-label="Web Rings">
+                <a href="https://nixwebr.ing/prev/hyperpastel" class="web-ring-link">prev</a>
+                <a href="https://nixwebr.ing/rand" class="web-ring-link">
+                    <img src="{{config.base_url}}/image/dice.png" alt="Random Web Ring">
+                </a>
+                <a href="https://nixwebr.ing/" class="web-ring-link">
+                    <img src="{{config.base_url}}/image/nixos.svg" alt="NixOS Web Ring">
+                </a>
+                <a href="https://nixwebr.ing/next/hyperpastel" class="web-ring-link">next</a>
+            </nav>
+
+            <footer>
+                <p>Made with ❤️ by Vicky &copy; 2025</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

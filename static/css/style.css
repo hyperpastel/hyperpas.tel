@@ -1,0 +1,15 @@
+/* A simple 90s inspired CSS */
+
+body {
+    background-color: #ffccff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a {
+    color: #0099ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0000;
+}

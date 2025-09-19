@@ -1,0 +1,19 @@
+base_url = "https://hyperpas.tel"
+
+compile_sass = true
+build_search_index = false
+
+[markdown]
+highlight_code = false
+
+[extra]
+
+88x31 = [
+    { title = "firefox", img = "firefox.png", url = "https://mozilla.com/firefox/"},
+    { title = "firefox2", img = "firefox2.gif", url = "https://mozilla.com/firefox/"},
+    { title = "trans", img = "trans.png", url = "#"},
+    { title = "nix", img = "nix.gif", url = "https://nixos.org"},
+    { title = "ublock", img = "ublock.png", url = "https://ublockorigin.com"},
+    { title = "neovim", img = "neovim.gif", url = "https://neovim.io"},
+    { title = "html", img = "html.gif", url = "#"},
+]

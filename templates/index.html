@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block head_extension %}
+    <link rel="stylesheet" href="/index.css">
+{% endblock head_extension %}
+
+{% block content %}
+    {{section.content | safe }}
+{% endblock content %}

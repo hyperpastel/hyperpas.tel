@@ -1,0 +1,115 @@
+// Variables
+$font-family: "Sans Serif", sans-serif;
+$box-background: rgba(15, 0, 0, 0.6);
+$text-color: #efe;
+$accent-color: #871029;
+$highlight-color: #f13140;
+
+// Definitions
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: $font-family;
+  background: url("/image/pattern.png") repeat;
+  background-size: 64px;
+  background-attachment: fixed;
+  color: $text-color;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  gap: 10px;
+}
+
+.box.title {
+  width: 100%;
+  background-color: $box-background;
+  color: $text-color;
+  padding: 10px;
+  border: 1px solid $accent-color;
+  text-align: center;
+
+  h1 {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+}
+
+.box.footer {
+  width: 100%;
+  background-color: $box-background;
+  color: $text-color;
+  padding: 20px;
+  border: 1px solid $accent-color;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+#eeti {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 7px;
+
+  .eeti-button {
+    text-decoration: none;
+
+    img {
+      width: 88px;
+      height: 31px;
+    }
+  }
+
+  iframe {
+    width: 88px;
+    height: 31px;
+    border: none;
+  }
+}
+
+#web-rings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+
+  .web-ring-link {
+    text-decoration: none;
+    color: $accent-color;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      color: $highlight-color;
+    }
+
+    img {
+      height: 20px;
+      width: auto;
+      display: block;
+    }
+  }
+}
+
