@@ -8,13 +8,13 @@ title = "hyperpas.tel - an abstract space"
         <img src="/image/selfie.png" alt="image">
         <p><strong>Name: </strong>Vicky</p>
         <p><strong>Pronouns: </strong>she/it</p>
-        <p><strong>Age: </strong>20</p>
+        <p><strong>Age: </strong>21</p>
         <p><strong>Species: </strong>???</p>
     </div>
     <div class="main-content">
         <h3>Hiiiii ~ ✨</h3>
         <p>
-            My name is hyperpastel (or Vicky). I am a <strike>dog</strike> computer science student from Germany.</br>
+            My name is hyperpastel (or Vicky). I am a puppy from Germany studying computer science.</br>
             I love knowing, I am curious about a great many things, such as:
         </p>
         <div class="interests">
